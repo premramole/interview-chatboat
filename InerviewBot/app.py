@@ -7,7 +7,7 @@ import google.generativeai as genai
 from collections import Counter
 
 # --- Configure Gemini API ---
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDPBAnNlNU3KmvRVAS6aRTfdbRvlxRcLWE")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", ")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # --- Custom CSS for enhanced UI ---
